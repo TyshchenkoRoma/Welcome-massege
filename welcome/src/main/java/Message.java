@@ -12,26 +12,34 @@ public class Message {
 
 
     public static void main(String[] args) {
+        Message message = new Message();
 
-        Date date = new Date();
-        SimpleDateFormat format1 = new SimpleDateFormat("kk");
-        double time = Double.parseDouble(format1.format(date));
+        double time = getTime();
 
         ResourceBundle resourceBundle = ResourceBundle.getBundle(
                 "Message", Locale.forLanguageTag("en"));
 
+        message.getMessage(time, resourceBundle);
+    }
+
+    public  void getMessage(double time, ResourceBundle resourceBundle) {
         if (time >= 6 && time < 9) {
-            System.out.println("s1");
+            System.out.println(resourceBundle.getString("s1"));
         }
         if (time >= 9 && time < 19) {
-            System.out.println("s2");
+            System.out.println(resourceBundle.getString("s2"));
         }
         if (time >= 19 && time < 23) {
             System.out.println(resourceBundle.getString("s3"));
         }
         if (time >= 23 || time < 6) {
-            System.out.println("s4");
+            System.out.println(resourceBundle.getString("s4"));
         }
+    }
 
+    private static double getTime() {
+        Date date = new Date();
+        SimpleDateFormat format1 = new SimpleDateFormat("kk");
+        return Double.parseDouble(format1.format(date));
     }
 }

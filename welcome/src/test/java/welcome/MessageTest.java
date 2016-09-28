@@ -1,4 +1,8 @@
+package welcome;
+
 import org.junit.Test;
+import welcome.Message;
+
 import static org.junit.Assert.*;
 
 import java.util.Locale;
@@ -12,7 +16,7 @@ public class MessageTest {
     @Test
     public void testDay() {
     String testMessage =   message.getMessage(10, ResourceBundle.getBundle(
-                "Message", Locale.forLanguageTag("en")));
+                "welcome.Message", Locale.forLanguageTag("en")));
         String expected = "Good day, World!";
         assertEquals(expected, testMessage);
     }

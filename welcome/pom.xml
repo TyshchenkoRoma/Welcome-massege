@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>welcomeMessage</groupId>
-    <artifactId>1</artifactId>
+    <artifactId>welcome</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>

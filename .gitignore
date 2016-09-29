@@ -4,8 +4,8 @@
 .idea
 *.iml
 *.class
-/target/*
-!target/*.jar
+/target/classes/*
+
 *.MF
 
 out

@@ -20,11 +20,9 @@ public class Message {
 
     public static void main(String[] args) {
         Message message = new Message();
-
         double time = getTime();
-
         ResourceBundle resourceBundle = ResourceBundle.getBundle(
-                "Message", Locale.forLanguageTag("en"));
+                "Message", Locale.getDefault());
 
         String result = message.getMessage(time, resourceBundle);
         logger.info("Output result.");

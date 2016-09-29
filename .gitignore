@@ -4,7 +4,7 @@
 .idea
 *.iml
 *.class
-/target/*
+target/*
 !target/*.jar
 *.MF
 

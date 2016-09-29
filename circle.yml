@@ -3,3 +3,13 @@ jdk:
   - oraclejdk8
 after_success:
   - mvn clean test jacoco:report coveralls:report -P coverall
+general:
+  branches:
+    only:
+      - master
+test:
+  override:
+    - curl -fsSL get.nextflow.io | bash
+    - docker pull nextflow/examples
+    - export WITH_DOCKER='-with-docker'; export NXF_CMD=$PWD/nextflow; cd checks/ && bash run.sh 
+

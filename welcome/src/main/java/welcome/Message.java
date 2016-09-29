@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
  */
 public class Message {
     {
-        PropertyConfigurator.configure(System.getProperty("user.dir") + "/resources/log4j.properties");
+        PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/main/resources/log4j.properties");
     }
     private static final Logger logger = Logger.getLogger(Message.class);
     private String textMessage;

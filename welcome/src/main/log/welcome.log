@@ -1,0 +1,15 @@
+20:36:59,198  INFO main Message:getTime:52 - Get current time.
+20:36:59,214  INFO main Message:getMessage:35 - Get information message.
+20:36:59,217  INFO main Message:main:30 - Output result.
+20:37:37,987  INFO main Message:getTime:52 - Get current time.
+20:37:38,005  INFO main Message:getMessage:35 - Get information message.
+20:37:38,008  INFO main Message:main:30 - Output result.
+20:39:09,540  INFO main Message:getTime:52 - Get current time.
+20:39:09,559  INFO main Message:getMessage:35 - Get information message.
+20:39:09,562  INFO main Message:main:30 - Output result.
+20:40:21,639  INFO main Message:getTime:52 - Get current time.
+20:40:21,653  INFO main Message:getMessage:35 - Get information message.
+20:40:21,655  INFO main Message:main:30 - Output result.
+20:46:56,290  INFO main Message:getTime:52 - Get current time.
+20:46:56,308  INFO main Message:getMessage:35 - Get information message.
+20:46:56,311  INFO main Message:main:30 - Output result.

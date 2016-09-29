@@ -1,6 +1,0 @@
-13:23:41,336  INFO main Message:getTime:52 - Get current time.
-13:23:41,346  INFO main Message:getMessage:35 - Get information message.
-13:23:41,348  INFO main Message:main:30 - Output result.
-19:12:29,928  INFO main Message:getTime:52 - Get current time.
-19:12:29,991  INFO main Message:getMessage:35 - Get information message.
-19:12:29,993  INFO main Message:main:30 - Output result.

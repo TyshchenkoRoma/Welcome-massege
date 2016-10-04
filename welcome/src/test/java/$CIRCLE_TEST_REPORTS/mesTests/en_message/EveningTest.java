@@ -1,4 +1,4 @@
-package welcome.en_message;
+package $CIRCLE_TEST_REPORTS.mesTests.en_message;
 
 import org.junit.Test;
 import welcome.Message;

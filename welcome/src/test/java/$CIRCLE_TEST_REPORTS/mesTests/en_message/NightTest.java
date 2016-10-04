@@ -1,4 +1,4 @@
-package welcome.def_message;
+package $CIRCLE_TEST_REPORTS.mesTests.en_message;
 
 import org.junit.Test;
 import welcome.Message;
@@ -11,13 +11,13 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by roman on 29.09.16.
  */
-public class DayTestDef {
+public class NightTest {
     Message message = new Message();
     @Test
-    public void testDay() {
-        String testMessage =   message.getMessage(10, ResourceBundle.getBundle(
-                "Message", Locale.getDefault()));
-        String expected = "Good day, World!";
+    public void testNight() {
+        String testMessage =   message.getMessage(4, ResourceBundle.getBundle(
+                "Message", Locale.forLanguageTag("en")));
+        String expected = "Good night, World!";
         assertEquals(expected, testMessage);
     }
 }

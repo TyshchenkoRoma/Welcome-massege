@@ -1,4 +1,4 @@
-package $CIRCLE_TEST_REPORTS.mesTests.ru_message;
+package junit.ru_message;
 
 import org.junit.Test;
 import welcome.Message;

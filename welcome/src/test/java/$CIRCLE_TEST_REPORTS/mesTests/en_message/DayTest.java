@@ -17,7 +17,7 @@ public class DayTest {
     public void testDay() {
         String testMessage =   message.getMessage(10, ResourceBundle.getBundle(
                 "Message", Locale.forLanguageTag("en")));
-        String expected = "Good day, World!";
+        String expected = "Good day, World! ";
         assertEquals(expected, testMessage);
     }
 }
